@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Card, Feed } from "semantic-ui-react";
-
+import {withRouter} from 'react-router-dom';
 class Leaderboard extends Component {
 	render() {
 		const { leaderboardData } = this.props;
@@ -59,4 +59,4 @@ function mapStateToProps({ authedUser, users, questions }) {
 	};
 }
 
-export default connect(mapStateToProps)(Leaderboard);
+export default withRouter(connect(mapStateToProps)(Leaderboard));

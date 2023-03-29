@@ -7,7 +7,7 @@ class Dashboard extends Component {
 	render() {
 		const panes = [
 			{
-				menuItem: "Unanswared Questions",
+				menuItem: "Unanswered Questions",
 				render: () => (
 					<Tab.Pane>
 						{this.props.unansweredQuestionIds.map((id) => (
@@ -19,7 +19,7 @@ class Dashboard extends Component {
 				),
 			},
 			{
-				menuItem: "Answared Questions",
+				menuItem: "Answered Questions",
 				render: () => (
 					<Tab.Pane>
 						{this.props.answeredQuestionIds.map((id) => (
