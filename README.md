@@ -1,30 +1,9 @@
-# Would You Rather Project
 
-## Live url- https://would-you-rather-by-manpreet.netlify.app/
-
-## Project rules: https://review.udacity.com/#!/rubrics/1567/view
 
 Would You Rather is a polling game that presents the user with a series of questions that can be answered one of two ways. It's built with React, Redux, React Router, & Redux Thunk. also add the authentication of users, which is entered a selected user dashboard, adding a queston answers to their own dashboard and see the poll of question answer section.
 
 This is the final assessment project for Udacity's React - Redux course. This app a web app that lets a user play the “Would You Rather?” questions answer game. In this project, I'm using react and redux functionality, improving the predictability of the application’s state; establish rules for getting and updating the store; and identify what state should live inside of Redux and what state should live inside of React components.
 
-# Installation instructions
-
-Clone the repository, change directories, and use NPM/Yarn to install the dependencies.
-
-- `$ git clone https://github.com/The-manpreet-singh/react-redux-would-you-rather-app.git`
-- `$ cd react-redux-would-you-rather-app`
-- `$ npm install or yarn install`
-
-## Usage
-
-The project can be run with
-
-- `npm start` or `yarn start`
-
-The project can be viewed in the browser at
-
-- [http://localhost:3000](http://localhost:3000)
 
 ## Features
 
@@ -129,6 +108,3 @@ _Parameters_: Object that contains the following properties: `authedUser`, `qid`
 | qid        | String | The id of the question that was answered                                                |
 | answer     | String | The option the user selected. The value should be either `"optionOne"` or `"optionTwo"` |
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests. For details, check out [CONTRIBUTING.md](https://github.com/udacity/reactnd-project-would-you-rather-starter/blob/master/CONTRIBUTING.md).
